@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  background-color: #0d192b;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  width: 375px;
+  background-color: #14253d;
+  border-radius: 15px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 35px 40px #0a121f;
+          box-shadow: 0px 35px 40px #0a121f;
+}
+
+.container .image {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container .image .equilibrium {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.container .image .view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 255, 247, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: -1;
+  border-radius: 15px;
+}
+
+.container .image:hover .view {
+  z-index: 1;
+}
+
+.container .header {
+  color: white;
+  font-weight: 100;
+  margin: 20px 0;
+}
+
+.container .paragraph {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #8bacda;
+  line-height: 1.6;
+  font-weight: 100;
+}
+
+.container .features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.container .features__left, .container .features__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .features__left img, .container .features__right img {
+  margin-right: 8px;
+}
+
+.container .features__left span {
+  font-weight: bold;
+  color: #00fff7;
+}
+
+.container .features__right span {
+  color: #8bacda;
+}
+
+.container .footer::before {
+  content: '';
+  display: block;
+  border: 1px solid #8bacda;
+  width: 100%;
+}
+
+.container .footer__credentials {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container .footer__credentials .avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.container .footer__credentials .avatar img {
+  width: 100%;
+}
+
+.container .footer__creation, .container .footer__name {
+  font-size: 1.2rem;
+}
+
+.container .footer__creation {
+  color: #8bacda;
+  margin-right: 4px;
+}
+
+.container .footer__name {
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.min.css.map */
