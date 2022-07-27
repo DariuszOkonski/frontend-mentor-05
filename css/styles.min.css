@@ -165,11 +165,17 @@ html, body {
 }
 
 .attribution {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: white;
 }
 /*# sourceMappingURL=styles.min.css.map */

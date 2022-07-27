@@ -160,5 +160,12 @@ html, body {
 }
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px; text-align: center; 
+    color: $color-white;
+}
+.attribution a { color: $color-white }
